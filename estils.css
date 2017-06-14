@@ -1,0 +1,236 @@
+/*Es la mida i la posicio de la pantalla del mapa*/
+#MON {
+    background-image: url(mapa2.jpg);
+    width: 1024px;
+    height: 768px;
+    top: 150px;
+    left: 450px;
+    position: fixed;
+}
+
+/*Es per poder visualitzar els videos al apretar una part del mapa*/
+#reproductor {
+    visibility: hidden;
+    background-color: black;
+    width: 1024px;
+    height: 768px;
+    left: 450px;
+    top: 150px;
+    position: fixed;
+    z-index: 2;
+}
+
+
+/*Es el tamany i la posicio que tenen els videos*/
+#visor {
+    width: 800px;
+    height: 1000px;
+    top: 100px;
+    left: 550px;
+    position: fixed;
+}
+
+
+/*Es per definir la posicio, tamany i color del boto Nashor*/
+#nashor {
+    background-color: lightgray;
+    opacity: 0.6;
+    width: 40px;
+    height: 40px;
+    top: 200px;
+    left: 385px;
+    position: relative;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/*Es per definir la posicio, tamany i color del boto Blue*/
+#blue {
+    background-color: lightgray;
+    opacity: 0.6;
+    width: 40px;
+    height: 40px;
+    top: 280px;
+    left: 750px;
+    position: relative;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/*Es per definir la posicio, tamany i color del boto Red*/
+#red {
+    background-color: lightgray;
+    opacity: 0.6;
+    width: 40px;
+    height: 40px;
+    top: 330px;
+    left: 550px;
+    position: relative;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/*Es per definir la posicio, tamany i color del boto Dragon*/
+#dragon {
+    background-color: lightgray;
+    opacity: 0.6;
+    width: 40px;
+    height: 40px;
+    top: 355px;
+    left: 680px;
+    position: relative;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/*Es per definir la posicio, tamany i color del boto Nexo*/
+#nexo {
+    background-color: lightgray;
+    opacity: 0.6;
+    width: 40px;
+    height: 40px;
+    top: 360px;
+    left: 160px;
+    position: relative;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/*Es per definir la posicio, tamany i color del boto Top*/
+#top {
+    background-color: lightgray;
+    opacity: 0.6;
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: 150px;
+    left: 230px;
+    position: relative;
+}
+
+
+/*Es per definir la posicio, tamany i color del boto Mid*/
+#mid {
+    background-color: lightgray;
+    opacity: 0.6;
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: 295px;
+    left: 530px;
+    position: relative;
+}
+
+
+/*Es per definir la posicio, tamany i color del boto Bot*/
+#bot {
+    background-color: lightgray;
+    opacity: 0.6;
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: 365px;
+    left: 840px;
+    position: relative;
+}
+
+
+/*Es el fons de pantalla que tindra el mapa i darrere els videos*/
+body {
+    background-image: url(back2.jpg);
+    position: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+/*Es per definir la mida del text que es troba sobre els videos*/
+h1{
+    z-index: 3;
+    color: white;
+    left: 830px;
+    top: 230px;
+    position: fixed;
+}
+
+
+/*Per indicar la posicio del boto de play*/
+#play{
+    position: fixed;
+    color: black;
+    z-index: 4;
+}
+
+
+/*Per indicar la posicio del boto de play*/
+#botoplay {
+    position: fixed;
+    top: 830px;
+    left: 555px;
+    z-index: 5;
+}
+
+
+/*Per indicar la posicio del boto de pause*/
+#botopause {
+    position: fixed;
+    top: 830px;
+    left: 580px;
+    z-index: 5;
+}
+
+
+/*Per indicar la posicio del boto de pujar el bolum*/
+#botomes {
+    position: fixed;
+    top: 830px;
+    left: 603px;
+    z-index: 5;
+}
+
+
+/*Per indicar la posicio del boto de vaixar el bolum*/
+#botomenys {
+    position: fixed;
+    top: 830px;
+    left: 628px;
+    z-index: 5;
+}
+
+
+/*Per definir la posicio que tindra el boto que tenca els videos i torna a la pantalla del mapa*/
+#botoclose {
+    position: fixed;
+    top: 330px;
+    left: 1320px;
+    z-index: 5;
+}
+
+
+/*Es per ocultar la la barra de reproduccio de l'audio*/
+audio {
+    position: fixed;
+    visibility: hidden;
+}
+
+
+
+
+
+
